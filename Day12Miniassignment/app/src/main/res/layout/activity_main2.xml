@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/Gray"
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp" >
+
+            <TextView
+                android:id="@+id/appDevlopment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="9pt"
+                android:text="App Devlopmet" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp" >
+
+            <TextView
+                android:id="@+id/webdevelopmet"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="9pt"
+                android:text="Web Development" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp" >
+
+            <TextView
+                android:id="@+id/aiml"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="9pt"
+                android:text="AI ML" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/Gray"
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp" >
+
+            <TextView
+                android:id="@+id/crypto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="9pt"
+                android:text="Cryptography" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/Gray"
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp" >
+
+            <TextView
+                android:id="@+id/blockchain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="9pt"
+                android:text="BlockChain" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp" >
+
+            <TextView
+                android:id="@+id/web3"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="9pt"
+                android:text="WEB 3" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/contactus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us" />
+</LinearLayout>
